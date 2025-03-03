@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Full page styling */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Beautiful gradient background */
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav {
+            text-align: center;
+            display: flex;
+            flex-direction: column; /* Align the icons vertically */
+            gap: 20px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            display: inline-flex;  /* Use inline-flex for better alignment of icon and text */
+            align-items: center;  /* Vertically center the text with the icon */
+            font-size: 24px;
+            padding: 20px;
+            border-radius: 50%;
+            transition: background-color 0.3s, transform 0.3s;
+            width: 200px;
+            justify-content: center;
+            gap: 15px;  /* Space between the icon and text */
+        }
+
+        /* Individual colors */
+        .instagram {
+            background-color: #E4405F;
+        }
+
+        .facebook {
+            background-color: #3b5998;
+        }
+
+        .game {
+            background-color: #FF5722; /* Unique color for Free Fire */
+        }
+
+        .google {
+            background-color: #4285F4; /* Google color */
+        }
+
+        /* Hover effects */
+        a:hover {
+            transform: scale(1.2);
+        }
+        
+        .instagram:hover {
+            background-color: #C13584;
+        }
+
+        .facebook:hover {
+            background-color: #2d4373;
+        }
+
+        .game:hover {
+            background-color: #FF7043; /* Darker shade for hover */
+        }
+
+        .google:hover {
+            background-color: #3367D6; /* Darker Google color */
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <!-- Instagram Link -->
+        <a href="https://www.instagram.com" class="instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span> <!-- Added the name of the social media -->
+        </a>
+        
+        <!-- Facebook Link -->
+        <a href="https://www.facebook.com" class="facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+            <span>Facebook</span> <!-- Added the name of the social media -->
+        </a>
+        
+        <!-- Free Fire Link -->
+        <a href="https://www.freefire.com" class="game" target="_blank">
+            <i class="fas fa-gamepad"></i>
+            <span>Free Fire</span> <!-- Added the name of the game -->
+        </a>
+        
+        <!-- Gmail Link -->
+        <a href="https://www.gmail.com" class="google" target="_blank">
+            <i class="fab fa-google"></i>
+            <span>Gmail</span> <!-- Added the name of the service -->
+        </a>
+    </nav>
+</body>
+</html>
